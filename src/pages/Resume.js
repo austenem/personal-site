@@ -24,16 +24,21 @@ const sections = {
 };
 
 const Resume = () => (
-  <Main
-    title="Resume"
-    description="Michael D'Angelo's Resume. Smile Identity, Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook."
-  >
+  <Main title="Resume" description="Austen's Resume.">
     <article className="post" id="resume">
       <header>
-        <div className="title">
-          <h2>
-            <Link to="resume">Resume</Link>
-          </h2>
+        <div className="title" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <h2 style={{ margin: 0 }}>Resume</h2>
+            <Link
+              to="/resume/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontSize: '0.9rem', fontWeight: 'normal' }}
+            >
+              (download PDF)
+            </Link>
+          </div>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>

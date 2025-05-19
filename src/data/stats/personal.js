@@ -5,7 +5,7 @@ const Age = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date('1990-02-05T09:24:00');
+    const birthTime = new Date('2001-07-09T09:24:00');
     setAge(((Date.now() - birthTime) / divisor).toFixed(11));
   };
 
@@ -18,6 +18,15 @@ const Age = () => {
   return <>{age}</>;
 };
 
+const BooksRead = () => {
+  const startOfYear = new Date(new Date().getFullYear(), 0, 1);
+  const now = new Date();
+  const msInWeek = 1000 * 60 * 60 * 24 * 7;
+  const weeksPassed = Math.floor((now - startOfYear) / msInWeek);
+
+  return <>{weeksPassed}</>;
+};
+
 const data = [
   {
     key: 'age',
@@ -25,15 +34,29 @@ const data = [
     value: <Age />,
   },
   {
-    key: 'countries',
-    label: 'Countries visited',
-    value: 53,
-    link: 'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
-  },
-  {
     key: 'location',
     label: 'Current city',
-    value: 'New York, NY',
+    value: 'Boston, MA',
+  },
+  {
+    key: 'states',
+    label: 'States visited',
+    value: 23,
+  },
+  {
+    key: 'mbta',
+    label: 'MBTA train stops visited',
+    value: 71,
+  },
+  {
+    key: 'books',
+    label: 'Books read so far this year',
+    value: <BooksRead />,
+  },
+  {
+    key: 'plants',
+    label: 'Surviving houseplants',
+    value: 13,
   },
 ];
 

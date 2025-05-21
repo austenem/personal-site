@@ -14,26 +14,26 @@
 const work = [
   {
     name: 'Harvard Medical School',
-    position: 'Software Developer',
+    position: 'Software Developer at HIDIVE Lab',
     url: 'https://hidivelab.org/',
     startDate: '2024-07-01',
     summary: 'The HIDIVE (Humans in Data Integration, Visualization, and Exploration) Lab in the Department of Biomedical Informatics at Harvard Medical School is a group of data scientists and software developers who are passionate about driving biomedical discovery by creating efficient and effective visual interfaces between analysts and data.',
     highlights: [
-      'Maintained and enhanced the HuBMAP Data Portal, contributing new frontend features using TypeScript and React and addressing backend issues using Python.',
+      'Collaborated with a distributed team across multiple academic, medical, and government organizations to support NIH-funded projects aimed at biomedical research interoperability.',
+      'Maintained and enhanced the Human BioMolecular Atlas Program Data Portal Data Portal, contributing new frontend features using TypeScript and React and addressing backend issues using Python.',
       'Led the introduction of collaborative features to the portal, allowing users to asynchronously share Jupyter notebooks and datasets.',
-      'Built a bulk download feature for dataset files and metadata, streamlining access for researchers.',
       'Migrated key features from local to persistent storage, improving user experience across sessions.',
       'Expanded test coverage across the portal, including revamping end-to-end testing with Cypress to ensure stability across releases.',
     ],
   },
   {
     name: 'Harvard Division of Continuing Education',
-    position: 'EdTech Software Engineer',
+    position: 'Software Engineer',
     url: 'https://dce.harvard.edu/',
     startDate: '2023-05-01',
     endDate: '2024-07-01',
     highlights: [
-      'Developed complex React components for and integrated full-stack features into Harvard’s Immersive Classroom project to improve learning experiences for asynchronous students.',
+      'Developed complex React components and integrated full-stack features into Harvard’s Immersive Classroom project to improve learning experiences for asynchronous students.',
       'Built an extensive validation library for the department’s React toolkit, streamlining input handling and optimizing development workflows.',
     ],
   },
@@ -58,8 +58,8 @@ const work = [
     endDate: '2024-05-01',
     summary: 'CS15 is an introductory data structures course at Tufts University focused on object-oriented programming and data structures in C++.',
     highlights: [
-      'Led a weekly lab section and held a minimum of three weekly office hours to ensure students’ understanding of the course material and troubleshoot projects as needed.',
-      'Graded and provided detailed written feedback on student homework and project submissions.',
+      'Led a weekly lab section and held a minimum of three weekly office hours to ensure students’ understanding of the course material.',
+      'Provided detailed feedback on student homework and troubleshooted projects in C++ as needed.',
       'Discussed assignments and potential changes to course infrastructure during weekly course staff meetings.',
     ],
   },

@@ -1,8 +1,8 @@
-Hi! I'm Austen, a software engineer based in Boston, MA. I enjoy building useful and beautiful things, especially when they help people. I recently graduated from Tufts University with a B.S. in Computer Science and a B.F.A. in Fine Art. 
+Hi! I'm Austen, a software engineer based in Boston, MA. I enjoy making things. I recently graduated from Tufts University with a B.S. in Computer Science and a B.F.A. in Fine Art. 
 
 <br/>
 
-I am currently a software developer at the [HIDIVE Lab](https://hidivelab.org/) at Harvard Medical School, where I primarily work on the [Human BioMolecular Atlas Project Data Portal](https://portal.hubmapconsortium.org/). Previously, I also worked at the [Harvard Division of Continuing Education](https://dce.harvard.edu/) as an EdTech software engineer, where I built tools to help improve learning experiences for asynchronous students.
+I am currently a software developer at [Veson Nautical](https://veson.com/). Previously, I worked at the [HIDIVE Lab](https://hidivelab.org/) at Harvard Medical School and the [Harvard Division of Continuing Education](https://dce.harvard.edu/).
 
 <br/>
 

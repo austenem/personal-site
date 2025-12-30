@@ -18,15 +18,6 @@ const Age = () => {
   return <>{age}</>;
 };
 
-const BooksRead = () => {
-  const startOfYear = new Date(new Date().getFullYear(), 0, 1);
-  const now = new Date();
-  const msInWeek = 1000 * 60 * 60 * 24 * 7;
-  const weeksPassed = Math.floor((now - startOfYear) / msInWeek);
-
-  return <>{weeksPassed}</>;
-};
-
 const data = [
   {
     key: 'age',
@@ -47,11 +38,6 @@ const data = [
     key: 'mbta',
     label: 'MBTA train stops visited',
     value: 71,
-  },
-  {
-    key: 'books',
-    label: 'Books read so far this year',
-    value: <BooksRead />,
   },
   {
     key: 'plants',
